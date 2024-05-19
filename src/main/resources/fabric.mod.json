@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "heavy-leashing-utils",
+	"version": "${version}",
+	"name": "Heavy Leashing utils",
+	"description": "A leash icon appears when attached to a mob, along with a number indicating how many are tethered. Additionally, a sound plays upon detaching any mob from the leash.",
+	"authors": [
+		"Heavy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/heavy-leashing-utils/heavy-leashing-utils.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.heavy.leashingutils.HeavyLeashingUtils"
+		],
+		"client": [
+			"net.heavy.leashingutils.HeavyLeashingUtilsClient"
+		],
+		"fabric-datagen": [
+			"net.heavy.leashingutils.HeavyLeashingUtilsDataGenerator"
+		],
+		"modmenu": [
+			"net.heavy.leashingutils.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"heavy-leashing-utils.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

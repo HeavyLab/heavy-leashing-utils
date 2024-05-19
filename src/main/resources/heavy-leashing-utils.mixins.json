@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.heavy.leashingutils.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MobEntityMixin",
+		"InGameHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "text.autoconfig.heavy-leashing-utils.title": "Heavy - leashing Utils",
+  "text.autoconfig.heavy-leashing-utils.option.displayAttachedStatusIcon": "Display attached status icon",
+  "text.autoconfig.heavy-leashing-utils.option.displayAttachedStatusCount": "Display attached mobs count",
+  "text.autoconfig.heavy-leashing-utils.option.playDetachSound": "Play sound when a mob detaches",
+  "text.autoconfig.heavy-leashing-utils.option.iconHudPosition": "Status icon position",
+  "text.autoconfig.heavy-leashing-utils.option.iconHudXOffset": "Status icon X offset",
+  "text.autoconfig.heavy-leashing-utils.option.iconHudYOffset": "Status icon Y offset"
+}
